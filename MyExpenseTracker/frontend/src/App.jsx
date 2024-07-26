@@ -8,7 +8,7 @@ import Dashboard from './components/Dashboard';
 const App = () => {
   return (
     <Router>
-      <div className='bg-custom-gradient min-h-[80vh] min-w-[80vw] h-full flex items-center justify-center p-4 rounded-2xl shadow-[5px_5px_0px_5px_#0C7489] border border-[#0C7489]'>
+      <div className='bg-custom-gradient min-h-[80vh] min-w-[80vw] flex items-center justify-center my-4 p-4 rounded-2xl shadow-[5px_5px_0px_5px_#0C7489] border border-[#0C7489]'>
           <Routes>
             <Route path="/" exact element={<Welcome />} />
             <Route path="/login" element={<Login />} />
