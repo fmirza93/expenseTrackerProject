@@ -1,6 +1,6 @@
 # My Expense Tracker - Team 35 Project
 
-![AppLogo](../MyExpenseTracker/frontend/src/assets/appLogo.png)
+![AppLogo](./MyExpenseTracker/frontend/src/assets/appLogo.png)
 
 This is to serve as a log of what has been done so far and can be used as part of our final report. I have tried to explain what has been done so far.
 
@@ -19,27 +19,27 @@ Here are the Mockup's/Designs for the App:
 
 Home Page:
 
-![Home Page](../MyExpenseTracker/frontend/src/assets/Mockups/HomePage.png)
+![Home Page](./MyExpenseTracker/frontend/src/assets/Mockups/HomePage.png)
 
 Login Page:
 
-![Login Page](../MyExpenseTracker/frontend/src/assets/Mockups/LoginPage.png)
+![Login Page](./MyExpenseTracker/frontend/src/assets/Mockups/LoginPage.png)
 
 SignUp Page:
 
-![SignUp Page](../MyExpenseTracker/frontend/src/assets/Mockups/SignUpPage.png)
+![SignUp Page](./MyExpenseTracker/frontend/src/assets/Mockups/SignUpPage.png)
 
 User Dashboard:
 
-![User Dashboard](../MyExpenseTracker/frontend/src/assets/Mockups/Dashboard.png)
+![User Dashboard](./MyExpenseTracker/frontend/src/assets/Mockups/Dashboard.png)
 
 Popup Modal:
 
-![Popup Modal](../MyExpenseTracker/frontend/src/assets/Mockups/Modal.png)
+![Popup Modal](./MyExpenseTracker/frontend/src/assets/Mockups/Modal.png)
 
 Settings Page:
 
-![Settings Page](../MyExpenseTracker/frontend/src/assets/Mockups/SettingsPage.png)
+![Settings Page](./MyExpenseTracker/frontend/src/assets/Mockups/SettingsPage.png)
 
 ## Tasks Completed
 
