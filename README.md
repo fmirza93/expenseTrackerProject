@@ -1,6 +1,6 @@
 # My Expense Tracker - Team 35 Project
 
-![AppLogo](../AGILE_FINAL/MyExpenseTracker/frontend/src/assets/appLogo.png)
+![AppLogo](../expenseTrackerProject/MyExpenseTracker/frontend/src/assets/appLogo.png)
 
 This is to serve as a log of what has been done so far and can be used as part of our final report. I have tried to explain what has been done so far.
 
@@ -19,27 +19,27 @@ Here are the Mockup's/Designs for the App:
 
 Home Page:
 
-![Home Page](../AGILE_FINAL/MyExpenseTracker/frontend/src/assets/Mockups/HomePage.png)
+![Home Page](../expenseTrackerProject/MyExpenseTracker/frontend/src/assets/Mockups/HomePage.png)
 
 Login Page:
 
-![Login Page](../AGILE_FINAL/MyExpenseTracker/frontend/src/assets/Mockups/LoginPage.png)
+![Login Page](../expenseTrackerProject/MyExpenseTracker/frontend/src/assets/Mockups/LoginPage.png)
 
 SignUp Page:
 
-![SignUp Page](../AGILE_FINAL/MyExpenseTracker/frontend/src/assets/Mockups/SignUpPage.png)
+![SignUp Page](../expenseTrackerProject/MyExpenseTracker/frontend/src/assets/Mockups/SignUpPage.png)
 
 User Dashboard:
 
-![User Dashboard](../AGILE_FINAL/MyExpenseTracker/frontend/src/assets/Mockups/Dashboard.png)
+![User Dashboard](../expenseTrackerProject/MyExpenseTracker/frontend/src/assets/Mockups/Dashboard.png)
 
 Popup Modal:
 
-![Popup Modal](../AGILE_FINAL/MyExpenseTracker/frontend/src/assets/Mockups/Modal.png)
+![Popup Modal](../expenseTrackerProject/MyExpenseTracker/frontend/src/assets/Mockups/Modal.png)
 
 Settings Page:
 
-![Settings Page](../AGILE_FINAL/MyExpenseTracker/frontend/src/assets/Mockups/SettingsPage.png)
+![Settings Page](../expenseTrackerProject/MyExpenseTracker/frontend/src/assets/Mockups/SettingsPage.png)
 
 ## Tasks Completed
 
