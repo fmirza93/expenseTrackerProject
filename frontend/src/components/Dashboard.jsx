@@ -20,7 +20,7 @@ const Dashboard = () => {
   };
 
   return (
-    <div className="flex h-[600px] w-full items-stretch ">
+    <div className="flex h-fit w-full items-stretch gap-x-4">
       <aside className="w-[20%] flex flex-col items-center  h-full border-r-2 border-primary">
 
         {/* User image that will be fetched from the database */}
