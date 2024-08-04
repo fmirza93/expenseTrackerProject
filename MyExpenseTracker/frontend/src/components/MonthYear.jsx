@@ -1,24 +1,36 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 
 const MonthYear = ({ onMonthYearChange }) => {
-  const [selectedMonth, setSelectedMonth] = useState('');
-  const [selectedYear, setSelectedYear] = useState('');
+  const currentDate = new Date();
+  const currentMonth = currentDate.getMonth() + 1; // getMonth() returns month from 0 to 11
+  const currentYear = currentDate.getFullYear();
+
+  const [selectedMonth, setSelectedMonth] = useState(currentMonth);
+  const [selectedYear, setSelectedYear] = useState(currentYear);
 
   const months = [
     'January', 'February', 'March', 'April', 'May', 'June',
     'July', 'August', 'September', 'October', 'November', 'December'
   ];
 
-  const years = Array.from(new Array(21), (val, index) => 2000 + index);
+  const startYear = 2023;
+  const years = Array.from(new Array(currentYear - startYear + 1), (val, index) => startYear + index);
+
+  useEffect(() => {
+    // Call the onMonthYearChange function with the current month and year when the component mounts
+    onMonthYearChange(currentMonth, currentYear);
+  }, []);
 
   const handleMonthChange = (e) => {
-    setSelectedMonth(e.target.value);
-    onMonthYearChange(e.target.value, selectedYear);
+    const monthIndex = e.target.value ? parseInt(e.target.value) : '';
+    setSelectedMonth(monthIndex);
+    onMonthYearChange(monthIndex, selectedYear);
   };
 
   const handleYearChange = (e) => {
-    setSelectedYear(e.target.value);
-    onMonthYearChange(selectedMonth, e.target.value);
+    const yearValue = e.target.value ? parseInt(e.target.value) : '';
+    setSelectedYear(yearValue);
+    onMonthYearChange(selectedMonth, yearValue);
   };
 
   return (
@@ -30,7 +42,7 @@ const MonthYear = ({ onMonthYearChange }) => {
       >
         <option value="" disabled>Select Month</option>
         {months.map((month, index) => (
-          <option key={index} value={month}>{month}</option>
+          <option key={index} value={index + 1}>{month}</option>
         ))}
       </select>
 
@@ -40,8 +52,8 @@ const MonthYear = ({ onMonthYearChange }) => {
         onChange={handleYearChange}
       >
         <option value="" disabled>Select Year</option>
-        {years.map((year, index) => (
-          <option key={index} value={year}>{year}</option>
+        {years.map((year) => (
+          <option key={year} value={year}>{year}</option>
         ))}
       </select>
     </div>
