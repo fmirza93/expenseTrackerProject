@@ -1,6 +1,6 @@
 import React from 'react'
 import CategoryDropdown from './CategoryDropdown'
-import Button from "../components/Button"
+import Button from "./Button"
 
 const AddExpense = () => {
   return (
