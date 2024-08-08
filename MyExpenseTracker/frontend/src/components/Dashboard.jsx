@@ -35,7 +35,7 @@ const Dashboard = () => {
               <Link to="#">Home</Link>
             </li>
             <li className="list-item  cursor-pointer text-center" onClick={() => setActiveComponent('settings')}>
-              <Link to="#">Settings</Link>
+              <Link to="/settings">Settings</Link>
             </li>
             <li className="list-item  cursor-pointer text-center">
               <Link to="/" onClick={() => navigate('/')}>Logout</Link>
