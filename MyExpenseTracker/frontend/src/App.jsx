@@ -4,6 +4,7 @@ import Welcome from './components/Welcome';
 import Login from './components/Login';
 import SignUp from './components/SignUp';
 import Dashboard from './components/Dashboard';
+import Settings from './components/Settings';
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
             <Route path="/login" element={<Login />} />
             <Route path="/signup" element={<SignUp />} />
             <Route path="/dashboard" element={<Dashboard />}/>
+            <Route path="/settings" element={<Settings />}/>
           </Routes>
       </div>
     </Router>
